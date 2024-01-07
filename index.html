@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajay Kumar</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>
+
+            * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .firstSection img{
+              width: 12vw;
+              height: 50vh;
+              border-radius: 100%;
+          }
+        .secondSection img{
+          width: 19vw;
+          height: 50vh;
+          border-radius: 100%;
+        }
+        .skills img{
+          width: 6vw;
+          height: 15vh;
+
+        }
+        .myProjects img{
+          width: 6vw;
+          height: 15vh;
+
+        }
+      body {
+        background-color: rgb(61, 94, 94);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(70, 99, 99);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 15px;
+      }
+      nav ul li a:hover{
+          color: rgb(76, 160, 163);
+          font-size: 1.01rem;
+      }
+      .left {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 23px 0;
+        background-color: rgb(70, 105, 105);
+      }
+      .firstSection >div {
+        width: 30%;
+        margin: 100px 0;
+      }
+      .leftSection {
+        background-color: #466969;
+        font-size: 2rem;
+        margin: 30px;
+
+      }
+      .rightSection {
+        background-color: rgb(70, 105, 105);
+      }
+      .rightSection img{
+
+          width: 80%;
+      }
+      .Name{
+          color: rgb(103, 182, 182);
+      }
+      #element{
+          color: #70c5c5;
+      }
+
+      .social-icons {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        list-style-type: none;
+
+      }
+      .social-icons li{
+
+        margin: 3px 5px;
+      }
+      .social-icons a {
+        font-size: 0.7rem;
+        display: inline-block;
+        line-height: 22px;
+        color: #00d9ff;
+        background-color: #09011b;
+        width: 22px;
+        height: 22px;
+        text-align: center;
+        margin-right: 8px;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+      }
+      .secondSection{
+       padding: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 23px 0;
+        background-color: rgb(70, 105, 105);
+      }
+      .text-grey{
+        font-size: 2rem;
+        color:#70c5c5;
+      }
+      .secondSection .rightSection{
+        width: 50%;
+      }
+      .thirdSection{
+
+        padding: 30px;
+
+        justify-content: space-around;
+        align-items: center;
+        margin: 23px 0;
+        background-color: rgb(70, 105, 105);
+      }
+      .skills {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10px;
+      }
+      .forthSection{
+
+        padding: 30px;
+
+        justify-content: space-around;
+        align-items: center;
+        margin: 23px 0;
+        background-color: rgb(70, 105, 105);
+      }
+      .myProjects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+      }
+
+      #contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      @media only screen and (max-width: 600px){
+          img{
+              width: 50px;px;
+              height: 50px;
+          }
+          body{
+              justify-content: center;
+          }
+          nav,.firstSection,.secondSection,.thirdSection,.forthSection,.skills,.myProjects{
+              width: 100%;
+              display: block;
+              justify-content: center;
+              text-wrap: wrap;
+          }
+          nav ul{
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        height: 150px;
+
+          }
+          .firstSection img{
+            width: 74vw;
+            height: 26vh;
+            border-radius: 100%;
+        }
+      .secondSection img{
+        width: 53vw;
+        height: 30vh;
+        border-radius: 100%;
+      }
+      .skills img{
+        width: 12vw;
+        height: 6vh;
+
+      }
+      .myProjects img{
+        width: 12vw;
+        height: 6vh;
+
+      }
+      .secondSection .rightSection{
+        width: 80vw;
+      }
+      .social-icons a {
+        font-size: 0.35rem;
+        display: inline-block;
+        line-height: 11px;
+        color: #00d9ff;
+        background-color: #09011b;
+        width: 11px;
+        height: 11px;
+        text-align: center;
+        margin-right: 8px;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+      }
+
+      }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">I'm Ajay</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, I'm <span class="Name">Ajay</span>
+          <div>I am a Front-end</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="/coding.png" alt="ImageHere" />
+        </div>
+      </section>
+      <section class="secondSection" id="About">
+        <div class="leftSection">
+          <img src="/ajay.jpg" alt="ImageHere" />
+        </div>
+        <div class="rightSection">
+          <h1>About</h1>
+          <span class="text-grey">About Me?</span>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+            libero sed aliquid placeat quidem, optio quae nulla praesentium
+            iusto commodi, tempore aspernatur. Est ipsam distinctio a adipisci
+            asperiores blanditiis ipsa dolorum nesciunt suscipit! Deserunt
+            tenetur dolorem illo at placeat sunt vitae, nihil expedita
+            exercitationem eos aliquid officia nulla accusantium ratione numquam
+            sapiente eligendi reprehenderit molestias voluptate voluptates
+            cupiditate! Repellat quae saepe possimus quo quod similique, modi
+            totam adipisci voluptatem commodi omnis neque consequatur. Pariatur
+            iste sed molestias quas officia quam aliquam perspiciatis voluptate
+            debitis natus reiciendis minima explicabo quaerat veniam expedita ad
+            dolorem nihil, ea, autem vero. Aliquid, nostrum ipsam.
+          </p>
+        </div>
+      </section>
+      <section class="thirdSection" id="Services">
+        <h1>Skills</h1>
+        <span class="text-grey">What I am capable of..</span>
+        <div class="skills">
+          <h1>Front-end Web Development</h1>
+          <img src="/html.png" alt="ImageHere" class="services" />
+          <img src="/css.png" alt="ImageHere" class="services" />
+          <img src="/js.png" alt="ImageHere" class="services" />
+          <img src="/react.png" alt="ImageHere" class="services" />
+        </div>
+      </section>
+
+      <section class="forthSection" id="Projects">
+        <h1>Projects</h1>
+        <span class="text-grey">What I have developed so far..</span>
+        <div class="myProjects">
+          <img src="/html.png" alt="ImageHere" class="services" />
+          <img src="/css.png" alt="ImageHere" class="services" />
+          <img src="/js.png" alt="ImageHere" class="services" />
+          <img src="/react.png" alt="ImageHere" class="services" />
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <h3>Contact and connect wth me on..</h3>
+      <ul class="social-icons">
+        <li>
+          <a
+            class="linkedin"
+            aria-label="LinkedIn"
+            href="https://www.linkedin.com/in/ajay-kumar-358758227/"
+            target="_blank"
+            data-sr-id="5"
+            style="
+              visibility: visible;
+              opacity: 1;
+              transform: matrix3d(
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              );
+              transition: all 0.2s linear 0s,
+                opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s,
+                transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+            "
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="github"
+            aria-label="GitHub"
+            href="https://github.com/A-JA-Y"
+            target="_blank"
+            data-sr-id="7"
+            style="
+              visibility: visible;
+              opacity: 1;
+              transform: matrix3d(
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              );
+              transition: all 0.2s linear 0s,
+                opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s,
+                transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+            "
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+
+        <li>
+          <a
+            class="telegram"
+            aria-label="Telegram"
+            href="https://t.me/@iBillyButcher"
+            target="_blank"
+            data-sr-id="11"
+            style="
+              visibility: visible;
+              opacity: 1;
+              transform: matrix3d(
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              );
+              transition: all 0.2s linear 0s,
+                opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s,
+                transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+            "
+            ><i class="fab fa-telegram-plane"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="instagram"
+            aria-label="Instagram"
+            href="https://www.instagram.com/sir_rrolex"
+            data-sr-id="13"
+            target="_blank"
+            style="
+              visibility: visible;
+              opacity: 1;
+              transform: matrix3d(
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              );
+              transition: all 0.2s linear 0s,
+                opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s,
+                transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+            "
+            ><i class="fab fa-instagram" target="_blank"></i
+          ></a>
+        </li>
+        <!-- <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank" data-sr-id="15" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 0.2s linear 0s, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;"><i class="fab fa-dev"></i></a></li> -->
+      </ul>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "student",
+          "Web Developer.",
+          " web designer.",
+          "video-editor.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

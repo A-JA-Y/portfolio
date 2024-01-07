@@ -1,0 +1,230 @@
+
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.firstSection img{
+        width: 12vw;
+        height: 50vh;
+        border-radius: 100%;
+    }
+  .secondSection img{
+    width: 19vw;
+    height: 50vh;
+    border-radius: 100%;
+  }
+  .skills img{
+    width: 6vw;
+    height: 15vh;
+    
+  }
+  .myProjects img{
+    width: 6vw;
+    height: 15vh;
+    
+  }
+body {
+  background-color: rgb(61, 94, 94);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(70, 99, 99);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color: rgb(76, 160, 163);
+    font-size: 1.01rem;
+}
+.left {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 23px 0;
+  background-color: rgb(70, 105, 105);
+}
+.firstSection >div {
+  width: 30%;
+  margin: 100px 0;
+}
+.leftSection {
+  background-color: #466969;
+  font-size: 2rem;
+  margin: 30px;
+ 
+}
+.rightSection {
+  background-color: rgb(70, 105, 105);
+}
+.rightSection img{
+    
+    width: 80%;
+}
+.Name{
+    color: rgb(103, 182, 182);
+}
+#element{
+    color: #70c5c5;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+ 
+}
+.social-icons li{
+
+  margin: 3px 5px;
+}
+.social-icons a {
+  font-size: 0.7rem;
+  display: inline-block;
+  line-height: 22px;
+  color: #00d9ff;
+  background-color: #09011b;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.secondSection{
+ padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 23px 0;
+  background-color: rgb(70, 105, 105);
+}
+.text-grey{
+  font-size: 2rem;
+  color:#70c5c5;
+}
+.secondSection .rightSection{
+  width: 50%;
+}
+.thirdSection{
+
+  padding: 30px;
+ 
+  justify-content: space-around;
+  align-items: center;
+  margin: 23px 0;
+  background-color: rgb(70, 105, 105);
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+.forthSection{
+
+  padding: 30px;
+ 
+  justify-content: space-around;
+  align-items: center;
+  margin: 23px 0;
+  background-color: rgb(70, 105, 105);
+}
+.myProjects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+#contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px){
+    img{
+        width: 50px;px;
+        height: 50px;
+    }
+    body{
+        justify-content: center;
+    }
+    nav,.firstSection,.secondSection,.thirdSection,.forthSection,.skills,.myProjects{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        text-wrap: wrap;
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  height: 150px;
+        
+    }
+    .firstSection img{
+      width: 74vw;
+      height: 26vh;
+      border-radius: 100%;
+  }
+.secondSection img{
+  width: 53vw;
+  height: 30vh;
+  border-radius: 100%;
+}
+.skills img{
+  width: 12vw;
+  height: 6vh;
+  
+}
+.myProjects img{
+  width: 12vw;
+  height: 6vh;
+  
+}
+.secondSection .rightSection{
+  width: 80vw;
+}
+.social-icons a {
+  font-size: 0.35rem;
+  display: inline-block;
+  line-height: 11px;
+  color: #00d9ff;
+  background-color: #09011b;
+  width: 11px;
+  height: 11px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+}
+
+
+
+    
